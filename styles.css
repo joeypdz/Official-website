@@ -1,0 +1,79 @@
+/* heading styles */
+h1 {
+    font-size: 2.5em;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+
+}
+/* paragraph styles */
+p {
+    font-size: 1.5em;
+    font-style: "Times New Roman", Times, serif;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 15px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+/* body styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    background-image:url("placeholder-background-image.jpg");
+    background-repeat:no-repeat;
+    background-position: top;
+    background-size: 100% 300px;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/* Div styles */
+div {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+ 
+/* Button effects */
+button:hover {
+    color: blue;
+}   
+/*a styles  */
+a:visited {
+    color: purple;
+ }
+      a {
+        color: blue;
+        text-decoration: none;
+        font-size: 1.5em;
+    } 
+    
+    /* video and audio styles */
+ video {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    max-width: 100%;
+    height: 560px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-content: left;
+ }
+  
